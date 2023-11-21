@@ -1,9 +1,11 @@
-package com.crud.bean;
+package com.example.project4_22000575;
 
 import java.util.Date;
 
 public class BoardVO {
 	private int seq;
+	private String category;
+	private Date edit_date;
 	private String title;
 	private String writer;
 	private String content;
@@ -45,5 +47,13 @@ public class BoardVO {
 	}
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
+	}
+	public void setCategory(String category){ this.category = category;}
+	public String getCategory() {return category;}
+	public Date getEditDate() {
+		return edit_date;
+	}
+	public void setEditDate(Date editDate) {
+		this.edit_date = edit_date;
 	}
 }

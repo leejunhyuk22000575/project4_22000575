@@ -7,10 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="fileform_ok.jsp" enctype="multipart/form-data">
+    이미지를 선택하세요 : <input type="file" name="img1" />
+    <input type="submit" value="upload" />
+</form>
+</body>
 </html>
